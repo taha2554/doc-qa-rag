@@ -1,0 +1,13 @@
+Expenses FAQ (example document)
+
+Q: How do I submit an expense?
+A: Upload a photo of the receipt in the finance app, choose a category and add a one-line description. Expenses are reimbursed with the next monthly salary.
+
+Q: What is the limit for client dinners?
+A: Up to 750 TL per person including drinks. Anything above that needs approval from your manager before the dinner.
+
+Q: Are taxis covered?
+A: Taxis are covered after 22:00 or when carrying equipment. Otherwise please use public transport.
+
+Q: What happens if I lose a receipt?
+A: Fill in the missing receipt form. This can be used at most twice per year.
