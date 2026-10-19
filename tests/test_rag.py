@@ -89,7 +89,7 @@ def test_reingest_does_not_duplicate():
     from pathlib import Path
 
     store, _, n_chunks = ingest.build_index(Path(SAMPLE), LocalHashEmbeddings())
-    chunks = ingest.split(ingest.load_folder(Path(SAMPLE)), 800, 120)
+    chunks = ingest.split(ingest.load_folder(Path(SAMPLE)), 500, 80)
     store.add_documents(chunks, ids=[ingest.chunk_id(c) for c in chunks])
     assert len(store.store) == n_chunks
 

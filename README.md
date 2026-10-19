@@ -6,6 +6,8 @@ Ask questions about your own PDFs, Markdown and text files. A small **retrieval-
 
 It also runs **without any API key**: then it returns the most relevant passage directly (extractive mode), which is handy for testing and for CI.
 
+Example with an LLM configured (output will vary slightly by model):
+
 ```
 $ docqa ask "How many days of annual leave do I get?"
 
@@ -13,7 +15,7 @@ Full-time employees get 20 working days of paid annual leave per year, plus publ
 holidays; after five years this increases to 25 days [1].
 
 Sources:
-  [1] employee_handbook.md  (score 0.41)
+  [1] employee_handbook.md
 ```
 
 ## How it works
