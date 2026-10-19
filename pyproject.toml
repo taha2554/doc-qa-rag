@@ -10,6 +10,7 @@ requires-python = ">=3.10"
 dependencies = [
     "langchain-core>=0.3",
     "langchain-text-splitters>=0.3",
+    "numpy>=1.26",
     "pypdf>=4.0",
     "fastapi>=0.110",
     "uvicorn>=0.29",
